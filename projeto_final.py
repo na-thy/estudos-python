@@ -45,6 +45,9 @@ def ler_alunos():
         alunos.append(novo_aluno)
     return alunos
 
+def print_aluno(aluno):
+    print(aluno)
+
 print(ler_aluno())
 print(ler_alunos())
 
