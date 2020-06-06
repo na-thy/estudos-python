@@ -1,3 +1,7 @@
+print("Projeto Final do Curso de Python da IFSP")
+print("Aluna: Nathaly Rodrigues Madureira Rondon\n")
+
+
 def cadastrar_aluno():
     cadastro = input("Deseja cadastrar novo aluno: [S] ou [N]: ").upper()
     while cadastro != "S" and cadastro != "N":
