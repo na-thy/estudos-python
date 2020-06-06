@@ -26,8 +26,10 @@ def ler_notas():
 
 def calcular_media(notas):
     soma = 0
+
     for nota in notas:
-       soma += nota  
+       soma += nota
+    
     return soma / len(notas)
 
 def ler_aluno():
