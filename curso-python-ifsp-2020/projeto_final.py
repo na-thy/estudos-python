@@ -1,7 +1,6 @@
 print("Projeto Final do Curso de Python da IFSP")
 print("Aluna: Nathaly Rodrigues Madureira Rondon\n")
 
-
 def cadastrar_aluno():
     cadastro = input("Deseja cadastrar novo aluno: [S] ou [N]: ").upper()
     while cadastro != "S" and cadastro != "N":
@@ -14,7 +13,7 @@ def ler_nome():
 def ler_sexo():
     sexo = input("Qual o sexo: ").upper()
     while sexo != "F" and sexo != "M":
-        print('Sexo Inválido. Informe sexo: ')
+        print("Sexo Inválido. Informe sexo: ")
         sexo = input("Qual o sexo: ").upper()
     return sexo
 

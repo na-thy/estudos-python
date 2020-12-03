@@ -1,4 +1,3 @@
-
 n = (int(input('Digite um número: ')), 
 int(input('Digite o segundo número: ')),
 int(input('Digite o terceiro número: ')), 
