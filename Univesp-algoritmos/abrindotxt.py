@@ -4,7 +4,10 @@ def readFile(filename):
     infile.close()
     wordList = content.split()
     print(wordList)
-    return len(wordList), len(content)
+    return len(wordList),len(content)
 
 n_words, n_chars = readFile('texto.txt')
-print(len(wordList), len(content))
+
+print(n_words)
+print(n_chars)
+
